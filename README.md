@@ -1,3 +1,3 @@
-# snake_game
+# tetris_game
 
 A new Flutter project.
