@@ -46,6 +46,7 @@ class _GameBoardState extends State<GameBoard> {
         checkLanding();
 
         if (gameOver == true) {
+          player.play(AssetSource('gameOver.wav'));
           timer.cancel();
           showGameOverDialog();
         }
